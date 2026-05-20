@@ -339,7 +339,7 @@ export default function App() {
     return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
       .join("&");
-  };
+  }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -1350,7 +1350,7 @@ export default function App() {
                          <h3 className="text-3xl font-serif text-green-deep italic">Request a Call Back</h3>
                       </div>
                       
-                      <form name="shubham-city-inquiry" onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-7">
+                      <form name="shubham-city-inquiry" data-netlify="true" onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-7">
                         <input type="hidden" name="form-name" value="shubham-city-inquiry" />
                         <div className="relative">
                           <span className="absolute -top-3 left-3 bg-[#fdfaf5] px-2 text-[10px] uppercase tracking-widest text-green-deep font-black z-20">Full Name</span>
@@ -1594,7 +1594,7 @@ export default function App() {
               <h3 className="text-3xl font-serif text-green-deep italic">Request a Call Back</h3>
             </div>
 
-            <form name="shubham-city-modal-inquiry" onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-7">
+            <form name="shubham-city-modal-inquiry" form data-netlify="true" onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-7">
               <input type="hidden" name="form-name" value="shubham-city-modal-inquiry" />
               <div className="relative">
                 <span className="absolute -top-3 left-3 bg-[#fdfaf5] px-2 text-[10px] uppercase tracking-widest text-green-deep font-black z-20">Full Name</span>
