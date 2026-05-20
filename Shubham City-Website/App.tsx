@@ -1350,7 +1350,7 @@ export default function App() {
                          <h3 className="text-3xl font-serif text-green-deep italic">Request a Call Back</h3>
                       </div>
                       
-                      <form name="shubham-city-inquiry" action="https://script.google.com/macros/s/AKfycbzs-xTyJuIE8nuRpS4UTftzhu2DYHXrXoNx5sS4-6dORT-WLyFH1Nu49Y2micWDtbi_/exec" method="POST" } className="grid grid-cols-1 gap-y-7">
+                      <form id="enquiry-form" action="https://script.google.com/macros/s/AKfycbzs-xTyJuIE8nuRpS4UTftzhu2DYHXrXoNx5sS4-6dORT-WLyFH1Nu49Y2micWDtbi_/exec" method="POST" className="grid grid-cols-1 gap-y-7">
                         <input type="hidden" name="form-name" value="shubham-city-inquiry" />
                         <div className="relative">
                           <span className="absolute -top-3 left-3 bg-[#fdfaf5] px-2 text-[10px] uppercase tracking-widest text-green-deep font-black z-20">Full Name</span>
@@ -1594,7 +1594,7 @@ export default function App() {
               <h3 className="text-3xl font-serif text-green-deep italic">Request a Call Back</h3>
             </div>
 
-            <form name="shubham-city-modal-inquiry" action="https://script.google.com/macros/s/AKfycbzs-xTyJuIE8nuRpS4UTftzhu2DYHXrXoNx5sS4-6dORT-WLyFH1Nu49Y2micWDtbi_/exec "method="POST" className="grid grid-cols-1 gap-y-7">
+            <form action="https://script.google.com/macros/s/AKfycbzs-xTyJuIE8nuRpS4UTftzhu2DYHXrXoNx5sS4-6dORT-WLyFH1Nu49Y2micWDtbi_/exec" method="POST" className="grid grid-cols-1 gap-y-7">
               <input type="hidden" name="form-name" value="shubham-city-modal-inquiry" />
               <div className="relative">
                 <span className="absolute -top-3 left-3 bg-[#fdfaf5] px-2 text-[10px] uppercase tracking-widest text-green-deep font-black z-20">Full Name</span>
