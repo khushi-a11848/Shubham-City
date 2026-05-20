@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Playfair Display", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  
+  --color-gold: #D4AF37;
+  --color-gold-deep: #92712C;
+  --color-green-deep: #0B2E1E;
+  --color-green-muted: #4A5D4E;
+  --color-offwhite: #F9F7F2;
+  --color-alt-bg: #F2EFE8;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@1,400;1,600;1,700&family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  @apply bg-offwhite text-green-deep antialiased;
+}
+
+h1, h2, h3 {
+  @apply font-serif tracking-tight;
+}
+
+.editorial-border {
+  @apply border border-gold/20;
+}
+
+.shadow-premium {
+  box-shadow: 0 10px 30px -5px rgba(11, 46, 30, 0.1);
+}
+
+.gold-gradient {
+  @apply bg-linear-to-br from-[#EAD085] via-gold to-[#A38045];
+}
+
+.gold-gradient-deep {
+  @apply bg-linear-to-br from-gold via-[#A38045] to-[#7d612c];
+}
