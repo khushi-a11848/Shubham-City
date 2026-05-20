@@ -38,7 +38,7 @@ import {
   MessageSquare,
   Send
 } from 'lucide-react';
-import { cn } from './utils';
+import { cn } from '@/utils';
 
 // Images - Using high-quality placeholders since internal generator hit quota
 const HERO_IMAGE = "https://i.ibb.co/99KF85Mx/Entry-night-view.jpg";
